@@ -1,5 +1,9 @@
-Drywall
+Framing
 =============
+
+The original project uses mongodb as the persistant data store. I'm a little uncomfortable working with a non-transactional database for key data. This fork is my learning project to break the mongodb persistence layer and replace it with mysql with the sequelize ORM.
+
+-
 
 A website and user system for Node.js. What you create with Drywall is more important than Drywall.
 
@@ -12,21 +16,10 @@ Technology
 | ------------- | -------------- | ----------- |
 | Express       | Bootstrap      | Grunt       |
 | Jade          | Backbone.js    |             |
-| Mongoose      | jQuery         |             |
+| Sequelize     | jQuery         |             |
 | Passport      | Underscore.js  |             |
 | Async         | Font-Awesome   |             |
 | EmailJS       | Moment.js      |             |
-
-Live Demos
-------------
-
-| Platform                       | Username | Password |
-| ------------------------------ | -------- | -------- |
-| https://drywall.herokuapp.com/ | root     | h3r00t   |
-| https://drywall.nodejitsu.com/ | root     | j1ts00t  |
-| https://drywall.onmodulus.net/ | root     | m0dr00t  |
-
-__Note:__ The live demos have been modified so you cannot change the root user, the root user's linked Administrator role or the root Admin Group. This was done in order to keep the app ready to test at all times.
 
 Requirements
 ------------
